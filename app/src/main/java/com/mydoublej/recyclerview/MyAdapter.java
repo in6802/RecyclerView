@@ -47,7 +47,7 @@ class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, int i) {
         MyViewHolder myViewHolder =(MyViewHolder)viewHolder;
         myViewHolder.mName.setText(arrayList.get(i).getName());
-        myViewHolder.mName.setText(arrayList.get(i).getName());
+        myViewHolder.mNumber.setText(arrayList.get(i).getNum());
     }
 
     @Override
